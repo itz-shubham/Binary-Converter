@@ -3,7 +3,7 @@
 void tobinary(int n, char prefix[3])
 {
     int i;
-    int a[4];
+    int a[5];
 
     printf("%s", prefix);
 
