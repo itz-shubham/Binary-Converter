@@ -41,7 +41,7 @@ void converter(char c)
     }
 }
 
-void main()
+int main()
 {
 
     int i;
@@ -56,4 +56,5 @@ void main()
     }
 
     printf("\n");
+    return 0;
 }
