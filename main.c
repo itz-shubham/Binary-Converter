@@ -1,5 +1,11 @@
+/*
+ *Program to convert the string to binary in a special way.
+ *if a character is in capital case then it's binary will contains leading "010".
+ *if a character is in small case then it's binary will contains leading "011".
+ */
 #include <stdio.h>
 
+/*convert the received number to binary and print the same with leading prefix received in argument*/
 void tobinary(int n, char prefix[3])
 {
     int i;
@@ -20,6 +26,7 @@ void tobinary(int n, char prefix[3])
     printf(" ");
 }
 
+/*convert the received character to binary with the help of 'tobinary()' function*/
 void converter(char c)
 {
     int i;
